@@ -1,0 +1,446 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Jun  9 09:06:56 2023
+# Process ID: 2300
+# Current directory: C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/synth_1
+# Command line: vivado.exe -log Nano_Processor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Nano_Processor.tcl
+# Log file: C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/synth_1/Nano_Processor.vds
+# Journal file: C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Nano_Processor.tcl -notrace
+Command: synth_design -top Nano_Processor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8392 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 435.031 ; gain = 96.203
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Nano_Processor' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:44]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/Slow_Clk.vhd:35' bound to instance 'Slow_Clock' of component 'Slow_Clk' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/Slow_Clk.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/Slow_Clk.vhd:40]
+INFO: [Synth 8-3491] module 'Program_counter' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Program_counter.vhd:34' bound to instance 'ProgramCounter' of component 'Program_counter' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'Program_counter' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Program_counter.vhd:41]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:35' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Program_counter.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (2#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:44]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:35' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Program_counter.vhd:58]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:35' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Program_counter.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'Program_counter' (3#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Program_counter.vhd:41]
+INFO: [Synth 8-3491] module 'P_ROM' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/P_ROM.vhd:35' bound to instance 'Programe_ROM' of component 'P_ROM' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'P_ROM' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/P_ROM.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'P_ROM' (4#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/P_ROM.vhd:40]
+INFO: [Synth 8-3491] module 'Ins_Decoder' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Ins_Decoder.vhd:34' bound to instance 'Instruction_Decoder' of component 'Ins_Decoder' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'Ins_Decoder' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Ins_Decoder.vhd:47]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_2_to_4.vhd:35' bound to instance 'Decoder_2_4_0' of component 'Decoder_2_to_4' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Ins_Decoder.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_2_to_4.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (5#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_2_to_4.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Ins_Decoder' (6#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Ins_Decoder.vhd:47]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:34' bound to instance 'RegisterBank' of component 'Register_Bank' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:49]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_3_to_8.vhd:35' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_3_to_8.vhd:41]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_2_to_4.vhd:35' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_3_to_8.vhd:52]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_2_to_4.vhd:35' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_3_to_8.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (7#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_3_to_8.vhd:41]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg_0' of component 'Reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:42]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:35' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:51]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:35' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:60]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:35' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:69]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:35' bound to instance 'D_FF_3' of component 'D_FF' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (8#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:42]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg_1' of component 'Reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:79]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg_2' of component 'Reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:87]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg_3' of component 'Reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:95]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg_4' of component 'Reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:103]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg_5' of component 'Reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:111]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg_6' of component 'Reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:119]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'Reg_7' of component 'Reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:127]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (9#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Register_Bank.vhd:49]
+INFO: [Synth 8-3491] module 'Mux_2_Way_4_Bit' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_4_Bit.vhd:34' bound to instance 'Mux_2_4' of component 'Mux_2_Way_4_Bit' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_Way_4_Bit' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_4_Bit.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_0' of component 'Mux_2_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_4_Bit.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_to_1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_to_1' (10#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_1' of component 'Mux_2_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_4_Bit.vhd:56]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2' of component 'Mux_2_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_4_Bit.vhd:63]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_3' of component 'Mux_2_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_4_Bit.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_Way_4_Bit' (11#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_4_Bit.vhd:41]
+INFO: [Synth 8-3491] module 'Add_Sub_4' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_Sub_4.vhd:34' bound to instance 'Add_Sub_4_Unit' of component 'Add_Sub_4' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:189]
+INFO: [Synth 8-638] synthesizing module 'Add_Sub_4' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_Sub_4.vhd:43]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:35' bound to instance 'FA_0' of component 'FA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_Sub_4.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:43]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/HA.vhd:35' bound to instance 'HA_0' of component 'HA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/HA.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'HA' (12#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/HA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/HA.vhd:35' bound to instance 'HA_1' of component 'HA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'FA' (13#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:43]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:35' bound to instance 'FA_1' of component 'FA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_Sub_4.vhd:69]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:35' bound to instance 'FA_2' of component 'FA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_Sub_4.vhd:77]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:35' bound to instance 'FA_3' of component 'FA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_Sub_4.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Add_Sub_4' (14#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_Sub_4.vhd:43]
+INFO: [Synth 8-3491] module 'Mux_8_Way_4_Bit' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd:34' bound to instance 'Mux_8_4_0' of component 'Mux_8_Way_4_Bit' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:197]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_Way_4_Bit' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd:47]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Mux_8_to_1.vhd:35' bound to instance 'Mux_8_1_0' of component 'Mux_8_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Mux_8_to_1.vhd:42]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Decoder_3_to_8.vhd:35' bound to instance 'Decoder_3_8' of component 'Decoder_3_to_8' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Mux_8_to_1.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (15#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Mux_8_to_1.vhd:42]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Mux_8_to_1.vhd:35' bound to instance 'Mux_8_1_1' of component 'Mux_8_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd:63]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Mux_8_to_1.vhd:35' bound to instance 'Mux_8_1_2' of component 'Mux_8_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd:72]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 4/Lab 4.srcs/sources_1/new/Mux_8_to_1.vhd:35' bound to instance 'Mux_8_1_3' of component 'Mux_8_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_Way_4_Bit' (16#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd:47]
+INFO: [Synth 8-3491] module 'Mux_8_Way_4_Bit' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd:34' bound to instance 'Mux_8_4_1' of component 'Mux_8_Way_4_Bit' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:210]
+INFO: [Synth 8-3491] module 'Add_3' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_3.vhd:34' bound to instance 'Adder_3_Bit' of component 'Add_3' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'Add_3' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_3.vhd:39]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:35' bound to instance 'FA_0' of component 'FA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_3.vhd:50]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:35' bound to instance 'FA_1' of component 'FA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_3.vhd:57]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 3/Lab3/Lab3.srcs/sources_1/new/FA.vhd:35' bound to instance 'FA_2' of component 'FA' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_3.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'Add_3' (17#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Add_3.vhd:39]
+INFO: [Synth 8-3491] module 'Mux_2_Way_3_Bit' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_3_Bit.vhd:34' bound to instance 'Mux_2_3' of component 'Mux_2_Way_3_Bit' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_Way_3_Bit' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_3_Bit.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_0' of component 'Mux_2_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_3_Bit.vhd:49]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_1' of component 'Mux_2_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_3_Bit.vhd:56]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2' of component 'Mux_2_to_1' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_3_Bit.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_Way_3_Bit' (18#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Mux_2_Way_3_Bit.vhd:41]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/LUT_16_7.vhd:33' bound to instance 'Seg_7_dis' of component 'LUT_16_7' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:232]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/LUT_16_7.vhd:39]
+INFO: [Synth 8-226] default block is never used [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/LUT_16_7.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (19#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/LUT_16_7.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Nano_Processor' (20#1) [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/sources_1/new/Nano_Processor.vhd:44]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 491.312 ; gain = 152.484
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 491.312 ; gain = 152.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 491.312 ; gain = 152.484
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/constrs_1/new/Basy3.xdc]
+Finished Parsing XDC File [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/constrs_1/new/Basy3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/constrs_1/new/Basy3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Nano_Processor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Nano_Processor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 822.262 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 822.262 ; gain = 483.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 822.262 ; gain = 483.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 822.262 ; gain = 483.434
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "Prog_Rom" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 822.262 ; gain = 483.434
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 18    
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 37    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   9 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Slow_Clk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module D_FF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module P_ROM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input     12 Bit        Muxes := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module Add_Sub_4 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'RegisterBank/Reg_0/D_FF_1/Q_reg' into 'RegisterBank/Reg_0/D_FF_0/Q_reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:49]
+INFO: [Synth 8-4471] merging register 'RegisterBank/Reg_0/D_FF_2/Q_reg' into 'RegisterBank/Reg_0/D_FF_0/Q_reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:49]
+INFO: [Synth 8-4471] merging register 'RegisterBank/Reg_0/D_FF_3/Q_reg' into 'RegisterBank/Reg_0/D_FF_0/Q_reg' [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element RegisterBank/Reg_0/D_FF_1/Q_reg was removed.  [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element RegisterBank/Reg_0/D_FF_2/Q_reg was removed.  [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element RegisterBank/Reg_0/D_FF_3/Q_reg was removed.  [C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Lab 5/Lab 5.srcs/sources_1/new/D_FF.vhd:49]
+INFO: [Synth 8-5545] ROM "Slow_Clock/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Slow_Clock/clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3917] design Nano_Processor has port Anode[3] driven by constant 1
+WARNING: [Synth 8-3917] design Nano_Processor has port Anode[2] driven by constant 1
+WARNING: [Synth 8-3917] design Nano_Processor has port Anode[1] driven by constant 1
+WARNING: [Synth 8-3917] design Nano_Processor has port Anode[0] driven by constant 0
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RegisterBank/Reg_0/D_FF_0/Q_reg )
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_0/D_FF_0/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_2/D_FF_3/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_3/D_FF_3/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_4/D_FF_3/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_5/D_FF_3/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_2/D_FF_2/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_3/D_FF_2/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_4/D_FF_2/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_5/D_FF_2/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_2/D_FF_1/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_3/D_FF_1/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_4/D_FF_1/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_5/D_FF_1/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_2/D_FF_0/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_3/D_FF_0/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_4/D_FF_0/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_5/D_FF_0/Q_reg) is unused and will be removed from module Nano_Processor.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 822.262 ; gain = 483.434
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 822.262 ; gain = 483.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 842.008 ; gain = 503.180
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_6/D_FF_3/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_6/D_FF_2/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_6/D_FF_1/Q_reg) is unused and will be removed from module Nano_Processor.
+WARNING: [Synth 8-3332] Sequential element (RegisterBank/Reg_6/D_FF_0/Q_reg) is unused and will be removed from module Nano_Processor.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 842.816 ; gain = 503.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 842.816 ; gain = 503.988
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 842.816 ; gain = 503.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 842.816 ; gain = 503.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 842.816 ; gain = 503.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 842.816 ; gain = 503.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 842.816 ; gain = 503.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |LUT2   |     1|
+|5     |LUT3   |     4|
+|6     |LUT4   |    15|
+|7     |LUT5   |    17|
+|8     |LUT6   |     9|
+|9     |FDCE   |    11|
+|10    |FDRE   |    34|
+|11    |IBUF   |     2|
+|12    |OBUF   |    17|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------+----------------+------+
+|      |Instance         |Module          |Cells |
++------+-----------------+----------------+------+
+|1     |top              |                |   120|
+|2     |  ProgramCounter |Program_counter |    31|
+|3     |    D_FF_0       |D_FF_8          |     8|
+|4     |    D_FF_1       |D_FF_9          |    19|
+|5     |    D_FF_2       |D_FF_10         |     4|
+|6     |  RegisterBank   |Register_Bank   |    15|
+|7     |    Reg_1        |Reg             |     4|
+|8     |      D_FF_0     |D_FF_4          |     1|
+|9     |      D_FF_1     |D_FF_5          |     1|
+|10    |      D_FF_2     |D_FF_6          |     1|
+|11    |      D_FF_3     |D_FF_7          |     1|
+|12    |    Reg_7        |Reg_0           |    11|
+|13    |      D_FF_0     |D_FF            |     4|
+|14    |      D_FF_1     |D_FF_1          |     1|
+|15    |      D_FF_2     |D_FF_2          |     1|
+|16    |      D_FF_3     |D_FF_3          |     5|
+|17    |  Slow_Clock     |Slow_Clk        |    54|
++------+-----------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 842.816 ; gain = 503.988
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 842.816 ; gain = 173.039
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 842.816 ; gain = 503.988
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+114 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 842.816 ; gain = 516.254
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/synth_1/Nano_Processor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Nano_Processor_utilization_synth.rpt -pb Nano_Processor_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 842.816 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  9 09:07:31 2023...

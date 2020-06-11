@@ -1,0 +1,278 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jun  8 10:18:29 2023
+# Process ID: 17048
+# Current directory: C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22456 C:\Users\hari2\Desktop\CSE\Pro.Con\Lap\Nano_processor\Nano_processor.xpr
+# Log file: C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/vivado.log
+# Journal file: C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4 -scripts_only
+wait_on_run impl_1
+add_files -fileset constrs_1 -norecurse C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/zsd.xdc
+export_ip_user_files -of_objects  [get_files C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/zsd.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/zsd.xdc
+file mkdir C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/constrs_1
+file mkdir C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/constrs_1/new
+close [ open C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/constrs_1/new/Basy3.xdc w ]
+add_files -fileset constrs_1 C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.srcs/constrs_1/new/Basy3.xdc
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4 -scripts_only
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+open_hw
+connect_hw_server
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210183A8A8D0A}
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [lindex [get_cfgmem_parts {28f00am29ew-bpi-x16}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_hw
+close_design
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {28f00am29ew-bpi-x16}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+launch_simulation
+open_wave_config C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg
+source TB_Nano.tcl
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {28f00am29ew-bpi-x16}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+open_wave_config C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg
+source TB_Nano.tcl
+current_wave_config {TB_Nano_behav.wcfg}
+add_wave {{/TB_Nano/UUT/ProgramCounter/Memory}} 
+current_wave_config {TB_Nano_behav.wcfg}
+add_wave {{/TB_Nano/UUT/ProgramCounter/Memory}} 
+current_wave_config {TB_Nano_behav.wcfg}
+add_wave {{/TB_Nano/UUT/ProgramCounter/Memory}} 
+save_wave_config {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg}
+current_wave_config {TB_Nano_behav.wcfg}
+add_wave {{/TB_Nano/UUT/ProgramCounter/Memory}} 
+save_wave_config {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg}
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg
+source TB_Nano.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Program_counter [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg
+source TB_Program_counter.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg
+source TB_Program_counter.tcl
+relaunch_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Mux_2_3 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_Mux_2_3.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Nano [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_3
+close_sim
+launch_simulation
+source TB_Nano.tcl
+current_wave_config {Untitled 6}
+add_wave {{/TB_Nano/UUT/ProgramCounter/Memory}} 
+save_wave_config {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg
+set_property xsim.view {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg} [get_filesets sim_1]
+relaunch_sim
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_wave_config {TB_Nano_behav.wcfg}
+add_wave {{/TB_Nano/UUT/Adder_3_Bit}} 
+current_wave_config {TB_Nano_behav.wcfg}
+add_wave {{/TB_Nano/UUT/Adder_3_Bit/I_Out}} 
+current_wave_config {TB_Nano_behav.wcfg}
+add_wave {{/TB_Nano/UUT/Adder_3_Bit/I_In}} 
+save_wave_config {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg}
+current_wave_config {TB_Nano_behav.wcfg}
+add_wave {{/TB_Nano/UUT/Adder_3_Bit/I_In}} 
+current_wave_config {TB_Nano_behav.wcfg}
+add_wave {{/TB_Nano/UUT/Adder_3_Bit/I_Out}} 
+current_wave_config {TB_Nano_behav.wcfg*}
+add_wave {{/TB_Nano/UUT/Mux_2_3/A}} 
+current_wave_config {TB_Nano_behav.wcfg*}
+add_wave {{/TB_Nano/UUT/Mux_2_3/B}} 
+current_wave_config {TB_Nano_behav.wcfg*}
+add_wave {{/TB_Nano/UUT/Mux_2_3/JF}} 
+current_wave_config {TB_Nano_behav.wcfg*}
+add_wave {{/TB_Nano/UUT/Mux_2_3/Q}} 
+save_wave_config {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg}
+save_wave_config {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/TB_Nano_behav.wcfg}
+relaunch_sim
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {28f00am29ew-bpi-x16}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+relaunch_sim
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210183A8A8DAA}
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {28f00am29ew-bpi-x16}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.runs/impl_1/Nano_Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jun  8 09:47:03 2023
+# Process ID: 33588
+# Current directory: C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent40224 C:\Users\hari2\Desktop\CSE\Pro.Con\Lap\Nano_processor\Nano_processor.xpr
+# Log file: C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/vivado.log
+# Journal file: C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/hari2/Desktop/CSE/Pro.Con/Lap/Nano_processor/Nano_processor.xprupdate_compile_order -fileset sources_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4 -scripts_only
+wait_on_run impl_1
+close_hw
